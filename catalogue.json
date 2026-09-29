@@ -1,0 +1,99 @@
+{
+  "schema": 1,
+  "name": "G9ServerManager",
+  "entries": [
+    {
+      "id": "adguard",
+      "version": "1.0.2",
+      "url": "https://github.com/ImanKari/G9ServerManager-Extensions/releases/download/adguard-1.0.2/adguard-1.0.2.g9x",
+      "sha256": "20d035daf7267a03368aeca30f90a26838d49c9c37c0e7202c7a5721207748ad",
+      "name": {
+        "en": "AdGuard Home",
+        "fa": "AdGuard Home"
+      },
+      "summary": {
+        "en": "A DNS server that blocks ads and trackers, on this server's loopback (127.0.0.1:5353): AdGuard Home's own image beside a small adapter, with its figures, block lists and your rules on a panel page.",
+        "fa": "سرور DNS که تبلیغات و ردیاب‌ها را مسدود می‌کند، روی حلقهٔ محلی همین سرور (127.0.0.1:5353): ایمیج رسمی AdGuard Home در کنار یک مبدل کوچک، با آمار، فهرست‌ها و قاعده‌های شما در یک صفحهٔ پنل."
+      },
+      "publisher": {
+        "name": "G9ServerManager",
+        "url": "https://dashboard.g9tm.com"
+      },
+      "runtime": "docker",
+      "sizeBytes": 35157750,
+      "egress": true,
+      "permissions": []
+    },
+    {
+      "id": "hello-panel",
+      "version": "1.0.0",
+      "url": "https://github.com/ImanKari/G9ServerManager-Extensions/releases/download/hello-panel-1.0.0/hello-panel-1.0.0.g9x",
+      "sha256": "0b6ed6286b4666c0a5e88a0447ce4271e4d4da6fc3a05d944149692b4c5685f4",
+      "name": {
+        "en": "Hello Panel",
+        "fa": "سلام پنل"
+      },
+      "summary": {
+        "en": "A tour of what an extension can do: a page of every kind of block, a dashboard widget, a page of its own in a sandbox, notes kept in the panel, an AI tool and a daily task.",
+        "fa": "گشتی در توانایی‌های یک افزونه: صفحه‌ای با همهٔ انواع بلوک‌ها، ابزارک داشبورد، صفحهٔ مستقل در محیط ایزوله، یادداشت‌هایی که در پنل می‌مانند، ابزار هوش مصنوعی و کار روزانه."
+      },
+      "publisher": {
+        "name": "G9ServerManager",
+        "url": "https://dashboard.g9tm.com"
+      },
+      "runtime": "exec",
+      "sizeBytes": 17690,
+      "egress": false,
+      "permissions": [
+        "ViewHost"
+      ]
+    },
+    {
+      "id": "relay-monitor",
+      "version": "1.0.1",
+      "url": "https://github.com/ImanKari/G9ServerManager-Extensions/releases/download/relay-monitor-1.0.1/relay-monitor-1.0.1.g9x",
+      "sha256": "bf8473db8f61f82cdb70f1af181bcb17c636a0163c3bad8c22fbd873a1cbfcfb",
+      "name": {
+        "en": "Relay monitor",
+        "fa": "پایشگر رله"
+      },
+      "summary": {
+        "en": "Watches your relay container (bov-relay by default): how many of its paths are up, from its own log, and whether each proxy that goes through it still reaches the internet — with a history, a widget, and a notification when something drops.",
+        "fa": "کانتینر رلهٔ شما (به‌طور پیش‌فرض bov-relay) را زیر نظر دارد: چند مسیرش برقرار است (از لاگ خودش) و آیا هر پراکسی که از آن می‌گذرد هنوز به اینترنت می‌رسد — با تاریخچه، ابزارک و اعلان وقتی چیزی قطع شود."
+      },
+      "publisher": {
+        "name": "G9ServerManager",
+        "url": "https://dashboard.g9tm.com"
+      },
+      "runtime": "exec",
+      "sizeBytes": 14799,
+      "egress": false,
+      "permissions": [
+        "ViewDocker",
+        "ViewNetwork"
+      ]
+    },
+    {
+      "id": "speedtest",
+      "version": "1.0.0",
+      "url": "https://github.com/ImanKari/G9ServerManager-Extensions/releases/download/speedtest-1.0.0/speedtest-1.0.0.g9x",
+      "sha256": "301aa2800d77095358ef877a52a3366de6cbdbc39d770d11106979fc37a32364",
+      "name": {
+        "en": "Speedtest",
+        "fa": "آزمون سرعت"
+      },
+      "summary": {
+        "en": "Measures this server's own link — download, upload and latency — every six hours and whenever you ask, through the route you give it, with its history on a page and the latest on the dashboard.",
+        "fa": "لینک خود این سرور را اندازه می‌گیرد — دریافت، ارسال و تأخیر — هر شش ساعت و هر وقت بخواهید، از همان مسیری که به آن می‌دهید؛ تاریخچه در یک صفحه و آخرین نتیجه روی داشبورد."
+      },
+      "publisher": {
+        "name": "G9ServerManager",
+        "url": "https://dashboard.g9tm.com"
+      },
+      "runtime": "exec",
+      "sizeBytes": 5219561,
+      "egress": true,
+      "permissions": []
+    }
+  ]
+}
