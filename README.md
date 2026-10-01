@@ -23,7 +23,7 @@ GitHub directly can reach it through a proxy.
 | [Hello Panel](https://github.com/ImanKari/G9ServerManager-Extensions/releases/download/hello-panel-1.0.0/hello-panel-1.0.0.g9x) | `hello-panel` | 1.0.0 | exec | no | ViewHost |
 | [Relay monitor](https://github.com/ImanKari/G9ServerManager-Extensions/releases/download/relay-monitor-1.0.1/relay-monitor-1.0.1.g9x) | `relay-monitor` | 1.0.1 | exec | no | ViewDocker, ViewNetwork |
 | [Speedtest](https://github.com/ImanKari/G9ServerManager-Extensions/releases/download/speedtest-1.0.0/speedtest-1.0.0.g9x) | `speedtest` | 1.0.0 | exec | yes | — |
-| [Web Automation](https://github.com/ImanKari/G9ServerManager-Extensions/releases/download/web-automation-1.0.1/web-automation-1.0.1.g9x) | `web-automation` | 1.0.1 | exec | yes | — |
+| [Web Automation](https://github.com/ImanKari/G9ServerManager-Extensions/releases/download/web-automation-1.0.2/web-automation-1.0.2.g9x) | `web-automation` | 1.0.2 | exec | yes | — |
 
 Every package is signed with the G9ServerManager release key (fingerprint `0db2422a2a6a09ff`): the panel verifies the
 signature and each file's checksum before anything runs, shows the publisher as *Official*, and shows the review — what it
