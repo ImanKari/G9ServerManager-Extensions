@@ -94,6 +94,28 @@
       "sizeBytes": 5219561,
       "egress": true,
       "permissions": []
+    },
+    {
+      "id": "web-automation",
+      "version": "1.0.0",
+      "url": "https://github.com/ImanKari/G9ServerManager-Extensions/releases/download/web-automation-1.0.0/web-automation-1.0.0.g9x",
+      "sha256": "bdba1b697603bd0bbe2f7bfc2f3fbc65ab1cc36595447c5f951f81645b4eee52",
+      "name": {
+        "en": "Web Automation",
+        "fa": "اتوماسیون وب"
+      },
+      "summary": {
+        "en": "Records a web task once and runs it on a schedule in a real browser without an AI; when a page changes, an AI repairs only the broken step and the repair is kept. Pipelines, approvals in the panel and Telegram, encrypted identities with 2FA codes, browsers built from inside.",
+        "fa": "یک کار وب را یک بار ثبت و طبق زمان‌بندی در مرورگر واقعی بدون هوش مصنوعی اجرا می‌کند؛ اگر صفحه تغییر کند، هوش مصنوعی فقط گام خراب را ترمیم می‌کند و ترمیم می‌ماند. خط کار، تأیید در پنل و تلگرام، هویت‌های رمزنگاری‌شده با کد دومرحله‌ای و ساخت مرورگر از درون."
+      },
+      "publisher": {
+        "name": "G9ServerManager",
+        "url": "https://dashboard.g9tm.com"
+      },
+      "runtime": "exec",
+      "sizeBytes": 28587911,
+      "egress": true,
+      "permissions": []
     }
   ]
 }
