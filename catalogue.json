@@ -97,9 +97,9 @@
     },
     {
       "id": "web-automation",
-      "version": "1.0.2",
-      "url": "https://github.com/ImanKari/G9ServerManager-Extensions/releases/download/web-automation-1.0.2/web-automation-1.0.2.g9x",
-      "sha256": "76ec30363729cda2c6ac6ee01016a13a9a5b272101feccfa27634b6c4c3ef625",
+      "version": "1.0.3",
+      "url": "https://github.com/ImanKari/G9ServerManager-Extensions/releases/download/web-automation-1.0.3/web-automation-1.0.3.g9x",
+      "sha256": "bf824b838d4c570a18af6156a95b16e2e316df667cd22bdb12ba4e39a533f539",
       "name": {
         "en": "Web Automation",
         "fa": "اتوماسیون وب"
@@ -113,7 +113,7 @@
         "url": "https://dashboard.g9tm.com"
       },
       "runtime": "exec",
-      "sizeBytes": 8032609,
+      "sizeBytes": 8031674,
       "egress": true,
       "permissions": []
     }
